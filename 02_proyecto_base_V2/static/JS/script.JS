@@ -1,6 +1,6 @@
 // Declaración de variables
 let coloresFavoritos = ["verde"," rojo"," azul"," morado"];
-let usuario = ["Benjamin"," benjamindelgado@liceovvh.cl" ,  16];
+let usuario = ["Benjamin"," benjamindelgado@liceovvh.cl",  16];
 let cadenaTexto = "Hola, mundo";
 let valorBooleano = true;
 let arregloNumeros = [1, 2, 3, 4];
