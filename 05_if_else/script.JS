@@ -143,3 +143,39 @@ function precio() { // Creación de la función
         alert("Precio normal");
     }
 }
+
+function licenciaEdad() {
+    let edad = parseInt(prompt("Ingrese su edad:"));
+    if (edad >= 18 && edad < 100) {
+        alert("Su edad es incompatible")
+    } else if (licencia == "si") {
+        let licencia = prompt("Indica Si tienes licencia")
+        if (licencia == "si") {
+            alert("Usted puede conducir")
+        } else if (licencia == "no") {
+            alert("Usted no puede conducir")
+        } else {
+            alert("Ingrese valores válidos!")
+        }
+    } else {
+        alert("Ingrese valores válidos")
+    }
+};
+
+
+/*11.- Comparar la longitud de dos palabras
+Solicita dos palabras con prompt(). Compara cuántas letras tiene cada una y muestra cuál es más larga o si tienen el mismo largo.*/
+
+function encontrarPalabraLarga() {
+    let pal1 = prompt("Ingrese primera palabra:")
+    let pal2 = prompt("Ingrese segunda palabra:")
+    if (pal1 == "" && pal2 == "") {
+      alert("Ingrese un valor para trabajar...")
+    } else if (pal1.length < pal2.length) {
+        alert(`La palabra más larga es ${pal2} con ${pal2.length} caracteres`)
+    } else if (pal1.length == pal2.length) {
+        alert(`Las palabras ${pal2} y ${pal1} tienes el mismo largo con ${pal1.length}`)
+    } else  {
+        alert(`la palabra más larga es ${pal1} con ${pal1.length} caracteres`)
+    } 
+};
