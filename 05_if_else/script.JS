@@ -216,5 +216,11 @@ function ingresarHora() {
 }
 
 function validarSiTieneE() {
+    let letraE = prompt("Ingresar una palabra con E")
 
+    if(letraE.includes("e")) {
+        alert("La palabra contiene la letra e")
+    } else {
+        alert("La palabra no contiene  la letra e")
+    }
 }
