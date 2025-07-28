@@ -179,3 +179,42 @@ function encontrarPalabraLarga() {
         alert(`la palabra más larga es ${pal1} con ${pal1.length} caracteres`)
     } 
 };
+
+function validarCorreo() {
+    let email = prompt("Por favor, ingresar correo: ")
+    if (email.includes("@")) {
+       alert(`El correo ${email} es invalido`)
+    } else {
+        alert(`El correo ${correo} es invalido`)
+    }
+}
+
+
+function validarNumero() {
+    let numero = parseInt(prompt("Ingresar número: "));
+    if (numero > 0) {
+        alert(`El ${numero} es positivo`)
+    } else if (numero === 0) {
+        alert(`El ${numero} es invalido`)
+    } else {
+        alert(`El ${numero} es negativo`)
+    }
+}
+
+function ingresarHora() {
+    let horaActual = parseFloat(prompt("Ingresar hora en formato 24hrs"));
+
+    if(horaActual < 12) {
+        alert(`Buenos días son las ${horaActual} hrs!`)
+    } else if (horaActual >= 12 && horaActual <= 18) {
+        alert(`Buenas tardes son las ${horaActual} hrs!`)
+    } else if (horaActual > 18 && horaActual <= 24) {
+        alert(`Buenas noches son las ${horaActual} hrs!.`)
+    } else {
+        alert("Es de madrugada")
+    }
+}
+
+function validarSiTieneE() {
+    
+}
