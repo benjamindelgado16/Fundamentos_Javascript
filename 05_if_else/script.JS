@@ -170,20 +170,20 @@ function encontrarPalabraLarga() {
     let pal1 = prompt("Ingrese primera palabra:")
     let pal2 = prompt("Ingrese segunda palabra:")
     if (pal1 == "" && pal2 == "") {
-      alert("Ingrese un valor para trabajar...")
+        alert("Ingrese un valor para trabajar...")
     } else if (pal1.length < pal2.length) {
         alert(`La palabra más larga es ${pal2} con ${pal2.length} caracteres`)
     } else if (pal1.length == pal2.length) {
         alert(`Las palabras ${pal2} y ${pal1} tienes el mismo largo con ${pal1.length}`)
-    } else  {
+    } else {
         alert(`la palabra más larga es ${pal1} con ${pal1.length} caracteres`)
-    } 
+    }
 };
 
 function validarCorreo() {
     let email = prompt("Por favor, ingresar correo: ")
     if (email.includes("@")) {
-       alert(`El correo ${email} es invalido`)
+        alert(`El correo ${email} es invalido`)
     } else {
         alert(`El correo ${correo} es invalido`)
     }
@@ -204,7 +204,7 @@ function validarNumero() {
 function ingresarHora() {
     let horaActual = parseFloat(prompt("Ingresar hora en formato 24hrs"));
 
-    if(horaActual < 12) {
+    if (horaActual < 12) {
         alert(`Buenos días son las ${horaActual} hrs!`)
     } else if (horaActual >= 12 && horaActual <= 18) {
         alert(`Buenas tardes son las ${horaActual} hrs!`)
@@ -216,5 +216,5 @@ function ingresarHora() {
 }
 
 function validarSiTieneE() {
-    
+
 }
