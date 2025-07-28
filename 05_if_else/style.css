@@ -13,8 +13,3 @@ body {
 .container {
     width: 1000px;
 }
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-}
