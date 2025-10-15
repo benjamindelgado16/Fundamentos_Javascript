@@ -19,9 +19,14 @@ header {
 }
 
 .container {
-    margin-top: 20px;
+    margin-top: 40px;
     display: flex;
-    gap: 10px;
+    gap: 20px;
     flex-direction: column;
     align-items: center;
+}
+
+button {
+    width: 300px;
+    font-size: 20px;
 }
