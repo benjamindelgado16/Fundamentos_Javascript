@@ -71,7 +71,7 @@ function temperatura() {
     } else if (ambiente >= 10 && ambiente <= 25) {
         alert("Esta fresco")
     } else if (ambiente >= 25 && ambiente < 42) {
-        alert("Hace calor") 
+        alert("Hace calor")
     } else if (ambiente > 42) {
         alert("Hace demasiado calor")
     } else {
@@ -80,12 +80,11 @@ function temperatura() {
 }
 
 function nombreReconocido() {
-    let name1 = "Dany";
-    let name2 = "Ely";
     let nombre = prompt("Coloque un nombre");
-    if (nombre === name1) {
+    nombre = nombre.toUpperCase();
+    if (nombre === "DANY") {
         alert("Hola profesor")
-    } else if (nombre === name2) {
+    } else if (nombre === "ELY") {
         alert("Hola Mamá")
     } else {
         alert("Hola visitante")
@@ -93,7 +92,7 @@ function nombreReconocido() {
 }
 
 function nota() {
-    let notas = parseFloat(prompt("Coloque su Nota")); 
+    let notas = parseFloat(prompt("Coloque su Nota"));
     if (notas < 4) {
         alert("Reprobado");
     } else if (notas >= 4 && notas <= 5) {
@@ -107,7 +106,7 @@ function nota() {
 
 function palabraClave() {
     let clave = prompt("Coloque una frase")
-    if(clave.toLowerCase().includes("jesus")) {
+    if (clave.toLowerCase().includes("jesus")) {
         alert("Contiene la palabra clave")
     } else {
         alert("La frase no contiene la palabra clave")
