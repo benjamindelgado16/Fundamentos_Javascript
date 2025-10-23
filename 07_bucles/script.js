@@ -40,3 +40,20 @@ function numero2() {
     }
     alert(resultado)
 }
+
+function sumarN() {
+    let suma = 0;
+    let sumar = parseInt(prompt("Ingrese un número: "));
+    let resultado = "Suma: 0 "
+    let contador = 1;
+    while(contador <= sumar) {
+        suma += contador;
+        resultado += ` + ${contador} `;
+        contador++
+    }
+    alert(`${resultado} = ${suma}`)
+}
+
+function multiplosDos() {
+    
+}
