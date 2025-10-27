@@ -58,11 +58,24 @@ function multiplosDos() {
     let multiplo = parseInt(prompt("Ingresa un número: "));
     let contador = 1;
     let resultado = "El resultado es: "
-    while (contador <= multiplo) {
+    while (contador < multiplo) {
         contador++
         if (contador % 2 == 0) {
             resultado += ` ${contador}`
         }
+    }
+    alert(resultado)
+}
+
+/*5️⃣ Bucle for: Tabla de multiplicar
+Pide un número al usuario e imprime su tabla de multiplicar del 1 al 10 en un solo alert.
+ */
+
+function multiplicar() {
+    let mul = parseInt(prompt("Coloque un número: "));
+    let resultado = `Tabla de ${mul}: `
+    for(let i = 1; i <= 10; i++) {
+        resultado += `\n ${mul} x ${i} = ${mul * i}`
     }
     alert(resultado)
 }
