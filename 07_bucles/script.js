@@ -94,6 +94,7 @@ function pares() {
         if (i % 2 == 0) {
             resultado += `  ${i} `
         }
+        console.log(resultado)
     }
     alert(resultado)
 }
@@ -115,12 +116,15 @@ function contarLetras() {
 function factorial() {
     let numero = parseInt(prompt("Ingrese un número para mostras su factorial: "));
     let factorial = 1;
-    let largo = "1";
+    let largo = "1"
+    let resultado = `EL factorial de ${numero} es:`
     for (let i = 2; i <= numero; i++) {
-        largo += ` * ${i}`
+        resultado += ` ${i}`
+        largo *= i
         factorial *= i;
+        console.log(resultado)
     }
-    alert(`El factorial de ${numero} es: ${largo} = ${factorial}`)
+    alert(`${resultado}  ${largo}  = ${factorial}`)
 }
 
 function sumaImpares() {
@@ -132,6 +136,7 @@ function sumaImpares() {
             resultado += ` + ${i}`
             suma += i
         }
+        console.log(resultado)
     }
     alert(resultado)
 }
