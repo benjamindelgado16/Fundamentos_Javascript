@@ -58,3 +58,10 @@ function impares() {
     alert(` ${num}`)
 }
 
+function sumarN() {
+    let num = 0;
+    let contador = 1;
+    while(contador <= 5) {
+        let hola = parseInt(prompt("Coloca un número: "))
+    }
+}
