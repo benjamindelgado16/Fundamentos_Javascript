@@ -128,10 +128,10 @@ function factorial() {
 }
 
 function sumaImpares() {
-    let num = parseInt(prompt("Ingresar número: "));
+    let numero = parseInt(prompt("Ingresar número: "));
     let resultado = "El resultado es: "
     let suma = 0
-    for (let i = 0; i <= num; i++) {
+    for (let i = 0; i <= numero; i++) {
         if (i % 2 != 0) {
             resultado += ` + ${i}`
             suma += i
