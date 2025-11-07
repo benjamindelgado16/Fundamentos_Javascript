@@ -70,15 +70,6 @@ function impares() {
     alert(` ${num}`)
 }
 
-function sumarN() {
-    let num = 0;
-    let contador = 1;
-    while(contador <= 5) {
-        let hola = parseInt(prompt("Coloca un número: "));
-
-    }
-}
-
 function factorial() {
     let num = parseInt(prompt("Ingrese un número para mostras su factorial: "));
     let fac = 1;
